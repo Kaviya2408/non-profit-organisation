@@ -1,0 +1,146 @@
+.nav{
+    position: absolute;
+    display: flex;
+    color: black;
+    left: 300px;
+    top: 50px;
+    width: 900px;
+    height: 50px;
+    background-color: white;
+    align-items: center;
+    gap: 30px;
+    justify-content: end;
+    padding-right: 20px;
+    border-radius: 9px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.title{
+    position: absolute;
+    margin-right: 750px;
+}
+.nav a:hover{
+    color:palevioletred;
+}
+.donate{
+    background-color: #E8B730;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    height: 30px;
+    width: 140px;
+    padding-left: 13px;
+    padding-right: 3px;
+}
+.cont{
+    background-image: url('./pexels-vikram-aditya-213772137-31486083.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.text-1 h2{
+    text-align: center;
+    padding-top: 100px;
+    color: whitesmoke;
+    font-size: 10vh;
+}
+.visit{
+    padding-left: 750px;
+}
+.carousel-item {
+      height: 100vh;
+    }
+.carousel-item video{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vh;
+      height: 100vh;
+      object-fit: cover;
+}
+.container-1{
+    display: flex;
+    margin-bottom: 100px; 
+}
+.abtus {
+   position:absolute ;
+   padding-top: 80px;
+   padding-left: 100px;
+   width: 500px;
+}
+.aboutsideimg img{
+    height: 500px;
+    margin-left: 880px;
+    padding-top: 30px;
+    justify-items: flex-end;
+    /* padding-left: 400px; */
+}
+footer p{
+     text-align: center;
+}
+footer ul.nav {
+    justify-content: center;
+    margin-top: 500px;
+}
+.containerd{
+    background-image: url('./pexels-fatihkaya-10094979.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.textd{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.containerd button{
+    border-radius: 10px;
+    margin-left: 700px;
+    background-color: #E8B730;
+    border: none;
+}
+.form {
+  width: 400px;
+  background-color: whitesmoke;
+   margin-left: 450px ;
+   margin-top: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.form-title {
+  text-align: center;
+  color: orangered;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.form-body label {
+  display: block;
+}
+.demo h2{
+  text-align: center;
+}
+.form-body input,.form-body textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.form-body button {
+  width: 100%;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-body button:hover {
+  background-color: #e04300;
+}

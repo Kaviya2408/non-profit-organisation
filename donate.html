@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="containerd">
+            <div class="textd">
+                <h1>Your suppoer,Their Second Chance at a<br> Happier,Healthier Life</h1>
+                <p>Every rupee you give helps us rescue, feed, and care for stray dogs in need.<br>
+                Your support provides shelter, treatment, and a second chance at life.<br>
+                Donate now and be the reason a tail keeps wagging today.</p>
+            </div>
+           
+            <button onclick="scan()">Donate Now</button>
+            <div class="qr" style="padding-left: 650px; padding-top: 50px;"></div>
+
+            <script>
+            function scan() {
+                document.querySelector(".qr").innerHTML = "<img src='qr.jpg' width='200'>";
+            }
+            </script>
+    </body>
+</html>
